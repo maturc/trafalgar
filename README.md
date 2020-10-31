@@ -1,3 +1,6 @@
+The goal of this project is building a webside from an existing design. The design that I used can be found here https://dribbble.com/shots/12514026--FIGMA-FREEBIE-Landing-page-for-a-healthcare-startup its made by [Aryo Pamungkas](https://dribbble.com/musicalryo)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
