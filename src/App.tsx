@@ -5,24 +5,29 @@ import { Navbar } from './components/Navbar';
 import { Banner } from './components/Banner';
 import { Services } from './components/Services';
 import { Info } from './components/Info';
+import { Testimonials } from './components/Testimonials';
+import { Articles } from './components/Articles';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <>
-      <header>
-        <Container maxWidth="lg">
+      <Container maxWidth="lg">
+        <header>
           <Navbar />
           <Banner />
-        </Container>
-      </header>
+        </header>
+      </Container>
       <Container maxWidth="md">
         <main>
           <Services />
           <Info />
+          <Testimonials />
+          <Articles />
         </main>
       </Container>
       <footer>
-
+        <Footer />
       </footer>
     </>
   );
