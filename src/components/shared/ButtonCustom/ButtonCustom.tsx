@@ -3,11 +3,11 @@ import './ButtonCustom.css';
 import { Button as ButtonUI } from '@material-ui/core';
 
 interface IButton {
-  buttonStyle: string;
-  children: any;
+  buttonStyle?: string;
+  children: string;
 }
 
-export function ButtonCustom( {buttonStyle, children}:IButton ) {
+export function ButtonCustom( {buttonStyle="secondary", children}:IButton ) {
   return (
     <ButtonUI>
       {children}
