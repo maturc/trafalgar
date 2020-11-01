@@ -4,11 +4,11 @@ import { ButtonCustom } from '../shared/ButtonCustom';
 import './ImageAndText.css';
 
 interface IImageAndText {
-  img:     string;
-  alt:     string;
-  title:   string;
-  body:    string;
-  button:  string;
+  img:    string;
+  alt:    string;
+  title:  string;
+  body:   string;
+  button: string;
   isReverse?: boolean;
 }
 
