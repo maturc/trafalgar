@@ -6,4 +6,8 @@
       flex-wrap: wrap;
   margin: 0 -17px;
 }
+
+.services__header, .services .services__header-body {
+  text-align: center;
+}
 /*# sourceMappingURL=Services.css.map */
