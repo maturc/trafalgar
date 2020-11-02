@@ -6,6 +6,8 @@ import './Testimonials.css';
 import controlsLeftIcon from '../../assets/carousel-left.svg';
 import controlsDotIcon from '../../assets/carousel-dot.svg';
 
+import testimonials1 from '../../assets/testimonials-1.jpg';
+
 export function Testimonials() {
   const [index, setIndex]       = useState<number>(0);
   const [numberOfCarouselItems] = useState<number>(4);
@@ -49,21 +51,21 @@ export function Testimonials() {
           index={index}
         >
           <CarouselItem
-            img=""
+            img={testimonials1}
             name="Edward Newgate"
             company="Founder Circle"
             quote="“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”"
           />
           <CarouselItem
-            img=""
-            name="Aadasddward Nesdadswgate"
+            img={testimonials1}
+            name="Aaddward Neswgate"
             company="sdada Cidasdasdrcle"
             quote="“Our ed pasdasdagement app and 
             web portal allow asdasdyousdas toasda access information instantaneously (no tedeous form, long calls, 
             or administrasecurely”"
           />
           <CarouselItem
-            img=""
+            img={testimonials1}
             name="Bdwswgate"
             company="Fossder Airsade"
             quote="“Ogement snd 
@@ -71,7 +73,7 @@ export function Testimonials() {
             or administracurely”"
           />
           <CarouselItem
-            img=""
+            img={testimonials1}
             name="Cdwte"
             company="Foule"
             quote="“Oed agement app and 
