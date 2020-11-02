@@ -1,0 +1,13 @@
+.article {
+  min-width: 350px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 350px;
+          flex: 1 0 350px;
+  margin: 17px;
+}
+
+.article h3 {
+  font-size: 21px !important;
+  line-height: 32px !important;
+}
+/*# sourceMappingURL=Article.css.map */
