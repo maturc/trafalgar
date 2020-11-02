@@ -20,7 +20,7 @@ export default function Card( {img, title, body}:ICard ) {
         <Typography variant="h3">
           {title}
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body2">
           {body}
         </Typography>
       </CardContent>
