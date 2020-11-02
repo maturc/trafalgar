@@ -27,6 +27,7 @@
 
 .navbar__links > li > a {
   text-decoration: none;
+  color: #1F1534;
 }
 
 .navbar__logo {
@@ -39,5 +40,9 @@
 
 .navbar__logo span {
   display: none;
+}
+
+.navbar__link--active {
+  font-weight: bold;
 }
 /*# sourceMappingURL=Navbar.css.map */

@@ -7,7 +7,7 @@ export function Navbar() {
     <nav className="navbar">
       <a href="/" className="navbar__logo" style={{backgroundImage: `url(${logo})`}}><span>Trafalgar</span></a>
       <ul className="navbar__links">
-        <li><a href="/">Home         </a></li>
+        <li><a href="/" className="navbar__link--active">Home         </a></li>
         <li><a href="/">Find a doctor</a></li>
         <li><a href="/">Apps         </a></li>
         <li><a href="/">Testimonials </a></li>
