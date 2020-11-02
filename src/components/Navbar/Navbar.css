@@ -27,6 +27,12 @@
 
 .navbar__links > li > a {
   text-decoration: none;
+  color: #9d99a6;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar__links > li > a:hover {
   color: #1F1534;
 }
 
@@ -43,6 +49,7 @@
 }
 
 .navbar__link--active {
-  font-weight: bold;
+  color: #1F1534 !important;
+  font-weight: 700 !important;
 }
 /*# sourceMappingURL=Navbar.css.map */
