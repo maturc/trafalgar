@@ -12,7 +12,7 @@ export function Banner() {
           Virtual healthcare
           for you
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" className="banner__body">
           Trafalgar provides progressive, and affordable 
           healthcare, accessible on mobile and online 
           for everyone
