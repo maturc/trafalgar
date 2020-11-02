@@ -1,4 +1,14 @@
 body {
   overflow-x: hidden;
 }
+
+p {
+  color: #7D7987;
+}
+
+hr {
+  width: 56px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=index.css.map */
