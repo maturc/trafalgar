@@ -14,6 +14,10 @@
   color: white;
 }
 
+.footer p {
+  color: white;
+}
+
 .footer__container {
   height: 100%;
   display: -webkit-box !important;
