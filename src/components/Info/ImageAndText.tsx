@@ -25,7 +25,7 @@ export default function ImageAndText( {img, alt, title, body, button, isReverse=
         <Typography variant="body1">
           {body}
         </Typography>
-        <ButtonCustom buttonStyle="primary">
+        <ButtonCustom>
           {button}
         </ButtonCustom>
       </div>
