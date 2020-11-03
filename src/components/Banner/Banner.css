@@ -8,6 +8,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 100px;
 }
 
 .banner__text {
@@ -18,10 +19,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 445px;
+  max-width: 440px;
 }
 
 .banner__body {
   font-size: 21px !important;
+  margin-top: 25px !important;
+  margin-bottom: 45px !important;
+}
+
+.banner__image {
+  margin-right: -24px;
 }
 /*# sourceMappingURL=Banner.css.map */

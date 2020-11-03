@@ -19,6 +19,7 @@
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 64px;
 }
 
 @media only screen and (max-width: 1165px) {
@@ -28,5 +29,11 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.articles__button {
+  text-align: center;
+  margin: 72px;
+  margin-bottom: 220px;
 }
 /*# sourceMappingURL=Articles.css.map */

@@ -34,7 +34,9 @@ export function Articles() {
           body="A healthy lifestyle should start from now and also for your skin health. There are some..."
         />
       </div>
-      <ButtonCustom>View all</ButtonCustom>
+      <div className="articles__button">
+        <ButtonCustom>View all</ButtonCustom>
+      </div>
     </div>
   );
 }

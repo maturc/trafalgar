@@ -5,4 +5,8 @@
 .MuiContainer-maxWidthMd {
   max-width: 1168px !important;
 }
+
+.main-margin > * {
+  margin: 200px 0;
+}
 /*# sourceMappingURL=App.css.map */

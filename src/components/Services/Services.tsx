@@ -54,9 +54,11 @@ export function Services() {
           body="Track and save your medical history and health data "
         />
       </div>
-      <ButtonCustom buttonStyle="secondary">
-          Learn more
-      </ButtonCustom>
+      <div className="services__button">
+        <ButtonCustom buttonStyle="secondary">
+            Learn more
+        </ButtonCustom>
+      </div>
     </section>
   );
 }

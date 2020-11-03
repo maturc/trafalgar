@@ -14,11 +14,19 @@
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin: 17px;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4) !important;
+          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4) !important;
+  padding: 40px;
 }
 
 .card__media {
   height: 95px;
   width: 92px;
   background-size: contain !important;
+}
+
+.card > * {
+  padding: 24px 0 0 !important;
 }
 /*# sourceMappingURL=Card.css.map */

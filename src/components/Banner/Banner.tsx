@@ -21,10 +21,7 @@ export function Banner() {
           Consult today
         </ButtonCustom>
       </div>
-      <div className="banner__image">
-        {/* would be better without wrapper div I guess, delete later maybe */}
-        <img src={bannerImg} alt="Healthcare illustration" width="693" height="598"/>
-      </div>
+      <img src={bannerImg} alt="Healthcare illustration" width="693" height="598" className="banner__image"/>
     </div>
   );
 }

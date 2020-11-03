@@ -19,7 +19,7 @@ function App() {
         </header>
       </Container>
       <Container maxWidth="md">
-        <main>
+        <main className="main-margin">
           <Services />
           <Info />
           <Testimonials />
