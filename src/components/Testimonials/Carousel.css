@@ -1,5 +1,6 @@
 .testimonials__carousel {
   overflow: hidden;
+  margin: 60px auto;
 }
 
 .testimonials__container {

@@ -10,10 +10,10 @@ export function Footer() {
       <Container maxWidth="lg" className="footer__container">
         <div className="footer__info">
           <img src={logo} alt="" width="160" height="41" />
-          <Typography variant="body1">
+          <Typography variant="body1" className="footer__about">
             Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
           </Typography>
-          <Typography variant="body2">
+          <Typography variant="body2" className="footer__copyright">
             ©Trafalgar PTY LTD 2020. All rights reserved
           </Typography>
         </div>

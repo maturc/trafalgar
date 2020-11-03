@@ -13,4 +13,25 @@
   font-size: 21px !important;
   line-height: 32px !important;
 }
+
+.article__content {
+  padding: 32px !important;
+}
+
+.article__body {
+  margin-top: 12px !important;
+  margin-bottom: 25px !important;
+}
+
+.article__more {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #4089ED;
+  text-decoration: none;
+}
+
+.article__more:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=Article.css.map */

@@ -6,7 +6,7 @@ import img2 from '../../assets/info-section-2.png';
 
 export function Info() {
   return (
-    <>
+    <div className="test">
       <ImageAndText
         img={img1}
         alt="test"
@@ -20,9 +20,9 @@ export function Info() {
         alt="test"
         title="Download our mobile apps"
         body="Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"
-        button="Download ↓"
+        button="Download"
         isReverse={true}
       />
-    </>
+    </div>
   );
 }

@@ -84,10 +84,10 @@ export function Testimonials() {
       </div>
       <div className="testimonials__controls">
         <button onClick={decrementIndex}  className="testimonials__controls-left"  style={controlsArrow}></button>
-        <button onClick={()=>setIndex(0)} className={`testimonials__controls-dot ${dotIsActive1}`}   style={controlsDot}></button>
-        <button onClick={()=>setIndex(1)} className={`testimonials__controls-dot ${dotIsActive2}`}   style={controlsDot}></button>
-        <button onClick={()=>setIndex(2)} className={`testimonials__controls-dot ${dotIsActive3}`}   style={controlsDot}></button>
-        <button onClick={()=>setIndex(3)} className={`testimonials__controls-dot ${dotIsActive4}`}   style={controlsDot}></button>
+        <button onClick={()=>setIndex(0)} className={`testimonials__controls-dot ${dotIsActive1}`} style={controlsDot}></button>
+        <button onClick={()=>setIndex(1)} className={`testimonials__controls-dot ${dotIsActive2}`} style={controlsDot}></button>
+        <button onClick={()=>setIndex(2)} className={`testimonials__controls-dot ${dotIsActive3}`} style={controlsDot}></button>
+        <button onClick={()=>setIndex(3)} className={`testimonials__controls-dot ${dotIsActive4}`} style={controlsDot}></button>
         <button onClick={incrementIndex}  className="testimonials__controls-right" style={controlsArrow}></button>
       </div>
     </>

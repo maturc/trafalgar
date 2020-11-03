@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=Info.css.map */
+@charset "UTF-8";
+.test .image-and-text:nth-child(2) {
+  margin-top: 200px;
+}
+
+.test .image-and-text:nth-child(2) button span::after {
+  content: "↓";
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: -2px;
+  left: 8px;
+}
+/*# sourceMappingURL=Info.css.map */

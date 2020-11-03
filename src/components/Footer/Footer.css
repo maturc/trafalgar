@@ -45,10 +45,33 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .footer__navs a {
   color: white;
   text-decoration: none;
+}
+
+.footer__navs a p {
+  line-height: 38px;
+}
+
+.footer__navs a p:hover {
+  color: #1a1a1a;
+}
+
+.footer__title {
+  font-size: 20px !important;
+}
+
+.footer__about {
+  margin: 8px 0 !important;
+}
+
+.footer__copyright {
+  margin: 32px 0 !important;
 }
 /*# sourceMappingURL=Footer.css.map */

@@ -33,4 +33,13 @@
 .image-and-text__text hr {
   margin-left: 0;
 }
+
+.image-and-text__img {
+  width: px;
+  height: px;
+}
+
+.image-and-text__button {
+  margin-top: 40px;
+}
 /*# sourceMappingURL=ImageAndText.css.map */

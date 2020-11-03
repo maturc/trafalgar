@@ -12,7 +12,7 @@ interface IFooterNav {
 export default function FooterNav( {head, listItem1, listItem2, listItem3, listItem4}: IFooterNav ) {
   return (
     <div className="footer__navs">
-      <Typography variant="h3" component="p">
+      <Typography variant="h3" component="p" className="footer__title">
         {head}
       </Typography>
       <ul>
