@@ -8,8 +8,9 @@ interface IButton {
 }
 
 export function ButtonCustom( {buttonStyle="secondary", children}:IButton ) {
+  const isPrimary = (buttonStyle==="primary");
   return (
-    <ButtonUI>
+    <ButtonUI disableRipple={true} className={`button ${isPrimary? "button--primary" : ""}`}>
       {children}
     </ButtonUI>
   );
