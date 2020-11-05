@@ -58,27 +58,21 @@ export function Testimonials() {
           />
           <CarouselItem
             img={testimonials1}
-            name="Aaddward Neswgate"
-            company="sdada Cidasdasdrcle"
-            quote="“Our ed pasdasdagement app and 
-            web portal allow asdasdyousdas toasda access information instantaneously (no tedeous form, long calls, 
-            or administrasecurely”"
+            name="Andrew West"
+            company="Chicada International"
+            quote="“It fits our needs perfectly. We have no regrets! Trafalgar was the best investment we ever made.”"
           />
           <CarouselItem
             img={testimonials1}
-            name="Bdwswgate"
-            company="Fossder Airsade"
-            quote="“Ogement snd 
-            web portal allow ormation instantaneously (no tedeous dlls, 
-            or administracurely”"
+            name="Emmott Black"
+            company="Airslide enterprise"
+            quote="“I couldn't have asked for more than this. I am so pleased with this product. Thank You!”"
           />
           <CarouselItem
             img={testimonials1}
-            name="Cdwte"
-            company="Foule"
-            quote="“Oed agement app and 
-            web portal allormation instantaneously (no tedeous form, long calls, 
-            or administrative hasly”"
+            name="Bridget Zan"
+            company="Foule Corp"
+            quote="“I would like to personally thank you for your outstanding product. Not able to tell you how happy I am with Trafalgar.”"
           />
         </Carousel>
       </div>
