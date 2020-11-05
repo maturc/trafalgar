@@ -30,10 +30,36 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 787px) {
+  .footer__container {
+    margin-top: 50px;
+  }
 }
 
 .footer__container > * {
   max-width: 390px;
+}
+
+.footer__info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 350px;
+          flex: 0 1 350px;
+}
+
+.footer__navs {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 820px) {
+  .footer__navs {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 110px;
+            flex: 1 0 110px;
+  }
 }
 
 .footer__navs ul {
