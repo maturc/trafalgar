@@ -2,7 +2,10 @@
   display: flex
   justify-content: space-between
   align-items: center
+  flex-wrap: wrap
   margin-bottom: 100px
+  & > *
+    margin: auto
   &__text
     display: flex
     flex-direction: column
@@ -13,3 +16,8 @@
     margin-bottom: 45px !important
   &__image
     margin-right: -24px
+    width: auto
+    height: auto
+    min-width: 340px
+    @media only screen and (max-width: 1180px)
+      margin-right: auto
