@@ -6,10 +6,10 @@ import img2 from '../../assets/info-section-2.png';
 
 export function Info() {
   return (
-    <div className="test">
+    <div className="image-and-text__container">
       <ImageAndText
         img={img1}
-        alt="test"
+        alt="illustration"
         title="Leading healthcare providers"
         body="Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
         in the solutions we deliver"
@@ -17,7 +17,7 @@ export function Info() {
       />
       <ImageAndText
         img={img2}
-        alt="test"
+        alt="illustration"
         title="Download our mobile apps"
         body="Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"
         button="Download"
