@@ -37,8 +37,8 @@
 }
 
 .navbar__logo {
-  width: 160px;
-  height: 41px;
+  min-width: 160px;
+  min-height: 41px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
