@@ -27,3 +27,29 @@
 .navbar__link--active
   color: #1F1534 !important
   font-weight: 700 !important
+
+//responsive burger design bellow ↓↓↓
+.navbar
+  &__links
+    @media only screen and (max-width: 700px)
+      display: none
+  &__burger
+    display: none
+    z-index: 21
+    @media only screen and (max-width: 700px)
+      display: block
+.navbar__burger--open
+  position: fixed
+  z-index: 20
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  display: flex;
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  background-color: white
+  padding: 0
+  margin: 0
+  width: 100vw
