@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/trafalgar/static/css/main.e31d3a72.chunk.css",
-    "main.js": "/trafalgar/static/js/main.8a676ec1.chunk.js",
-    "main.js.map": "/trafalgar/static/js/main.8a676ec1.chunk.js.map",
-    "runtime-main.js": "/trafalgar/static/js/runtime-main.62dd0fa6.js",
-    "runtime-main.js.map": "/trafalgar/static/js/runtime-main.62dd0fa6.js.map",
-    "static/js/2.c674f791.chunk.js": "/trafalgar/static/js/2.c674f791.chunk.js",
-    "static/js/2.c674f791.chunk.js.map": "/trafalgar/static/js/2.c674f791.chunk.js.map",
-    "static/js/3.9f0168a7.chunk.js": "/trafalgar/static/js/3.9f0168a7.chunk.js",
-    "static/js/3.9f0168a7.chunk.js.map": "/trafalgar/static/js/3.9f0168a7.chunk.js.map",
+    "main.css": "/trafalgar/static/css/main.c0a6a55d.chunk.css",
+    "main.js": "/trafalgar/static/js/main.5d9a2c63.chunk.js",
+    "main.js.map": "/trafalgar/static/js/main.5d9a2c63.chunk.js.map",
+    "runtime-main.js": "/trafalgar/static/js/runtime-main.8499473b.js",
+    "runtime-main.js.map": "/trafalgar/static/js/runtime-main.8499473b.js.map",
+    "static/js/2.2b182aba.chunk.js": "/trafalgar/static/js/2.2b182aba.chunk.js",
+    "static/js/2.2b182aba.chunk.js.map": "/trafalgar/static/js/2.2b182aba.chunk.js.map",
+    "static/js/3.1b768f73.chunk.js": "/trafalgar/static/js/3.1b768f73.chunk.js",
+    "static/js/3.1b768f73.chunk.js.map": "/trafalgar/static/js/3.1b768f73.chunk.js.map",
     "index.html": "/trafalgar/index.html",
-    "static/css/main.e31d3a72.chunk.css.map": "/trafalgar/static/css/main.e31d3a72.chunk.css.map",
-    "static/js/2.c674f791.chunk.js.LICENSE.txt": "/trafalgar/static/js/2.c674f791.chunk.js.LICENSE.txt",
+    "static/css/main.c0a6a55d.chunk.css.map": "/trafalgar/static/css/main.c0a6a55d.chunk.css.map",
+    "static/js/2.2b182aba.chunk.js.LICENSE.txt": "/trafalgar/static/js/2.2b182aba.chunk.js.LICENSE.txt",
     "static/media/article-image-1.cc430c25.png": "/trafalgar/static/media/article-image-1.cc430c25.png",
     "static/media/article-image-2.47a085f6.png": "/trafalgar/static/media/article-image-2.47a085f6.png",
     "static/media/article-image-3.361de679.png": "/trafalgar/static/media/article-image-3.361de679.png",
@@ -31,9 +31,9 @@
     "static/media/tracking.6345523b.svg": "/trafalgar/static/media/tracking.6345523b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.62dd0fa6.js",
-    "static/js/2.c674f791.chunk.js",
-    "static/css/main.e31d3a72.chunk.css",
-    "static/js/main.8a676ec1.chunk.js"
+    "static/js/runtime-main.8499473b.js",
+    "static/js/2.2b182aba.chunk.js",
+    "static/css/main.c0a6a55d.chunk.css",
+    "static/js/main.5d9a2c63.chunk.js"
   ]
 }
