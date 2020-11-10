@@ -9,6 +9,10 @@ export function Navbar() {
 
   function handleClick() {
     setIsOpen(!isOpen);
+    if(document.body.style.overflowY === "hidden")
+      document.body.style.overflowY = "visible";
+    else
+      document.body.style.overflowY = "hidden";
   }
   return (
     <>
