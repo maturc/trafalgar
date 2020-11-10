@@ -7,6 +7,9 @@ import controlsLeftIcon from '../../assets/carousel-left.svg';
 import controlsDotIcon from '../../assets/carousel-dot.svg';
 
 import testimonials1 from '../../assets/testimonials-1.jpg';
+import testimonials2 from '../../assets/testimonials-2.jpg';
+import testimonials3 from '../../assets/testimonials-3.jpg';
+import testimonials4 from '../../assets/testimonials-4.jpg';
 
 export function Testimonials() {
   const [index, setIndex]       = useState<number>(0);
@@ -57,19 +60,19 @@ export function Testimonials() {
             quote="“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”"
           />
           <CarouselItem
-            img={testimonials1}
+            img={testimonials2}
             name="Andrew West"
             company="Chicada International"
             quote="“It fits our needs perfectly. We have no regrets! Trafalgar was the best investment we ever made.”"
           />
           <CarouselItem
-            img={testimonials1}
+            img={testimonials3}
             name="Emmott Black"
             company="Airslide enterprise"
             quote="“I couldn't have asked for more than this. I am so pleased with this product. Thank You!”"
           />
           <CarouselItem
-            img={testimonials1}
+            img={testimonials4}
             name="Bridget Zan"
             company="Foule Corp"
             quote="“I would like to personally thank you for your outstanding product. Not able to tell you how happy I am with Trafalgar.”"
