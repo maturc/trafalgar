@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trafalgar/static/css/main.c0a6a55d.chunk.css",
-    "main.js": "/trafalgar/static/js/main.5d9a2c63.chunk.js",
-    "main.js.map": "/trafalgar/static/js/main.5d9a2c63.chunk.js.map",
+    "main.js": "/trafalgar/static/js/main.88f731a3.chunk.js",
+    "main.js.map": "/trafalgar/static/js/main.88f731a3.chunk.js.map",
     "runtime-main.js": "/trafalgar/static/js/runtime-main.8499473b.js",
     "runtime-main.js.map": "/trafalgar/static/js/runtime-main.8499473b.js.map",
     "static/js/2.2b182aba.chunk.js": "/trafalgar/static/js/2.2b182aba.chunk.js",
@@ -28,12 +28,15 @@
     "static/media/online-pharmacy.c3674919.svg": "/trafalgar/static/media/online-pharmacy.c3674919.svg",
     "static/media/search-doctor.dce6b49a.svg": "/trafalgar/static/media/search-doctor.dce6b49a.svg",
     "static/media/testimonials-1.c526a830.jpg": "/trafalgar/static/media/testimonials-1.c526a830.jpg",
+    "static/media/testimonials-2.f774d1ff.jpg": "/trafalgar/static/media/testimonials-2.f774d1ff.jpg",
+    "static/media/testimonials-3.3e71b981.jpg": "/trafalgar/static/media/testimonials-3.3e71b981.jpg",
+    "static/media/testimonials-4.727c4aa7.jpg": "/trafalgar/static/media/testimonials-4.727c4aa7.jpg",
     "static/media/tracking.6345523b.svg": "/trafalgar/static/media/tracking.6345523b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8499473b.js",
     "static/js/2.2b182aba.chunk.js",
     "static/css/main.c0a6a55d.chunk.css",
-    "static/js/main.5d9a2c63.chunk.js"
+    "static/js/main.88f731a3.chunk.js"
   ]
 }
