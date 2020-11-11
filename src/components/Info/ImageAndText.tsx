@@ -2,6 +2,7 @@ import { Typography } from '@material-ui/core';
 import React from 'react';
 import { ButtonCustom } from '../shared/ButtonCustom';
 import './ImageAndText.css';
+import dotsBlue from '../../assets/bg-dots-blue.svg';
 
 interface IImageAndText {
   img:    string;
@@ -16,7 +17,7 @@ export default function ImageAndText( {img, alt, title, body, button, isReverse=
   const reverse = isReverse ? "image-and-text--reverse" : "";
   return (
     <section className={`image-and-text ${reverse}`}>
-      <img className="image-and-text__img" src={img} alt={alt} />
+      <img className="image-and-text__img target" src={img} alt={alt} />
       <div className="image-and-text__text">
         <Typography variant="h2">
           {title}
@@ -31,6 +32,11 @@ export default function ImageAndText( {img, alt, title, body, button, isReverse=
           </ButtonCustom>
         </div>
       </div>
+      {/* background elements */}
+        <div className="image-and-text__bg-container">
+            <img src={dotsBlue} alt="" className="image-and-text__dots-blue" />
+          </div>
+      {/* /////////////////// */}
     </section>
   );
 }

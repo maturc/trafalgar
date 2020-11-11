@@ -27,4 +27,29 @@
   margin: 72px;
   margin-bottom: 220px;
 }
+
+.articles__bg-container {
+  position: relative;
+}
+
+.articles__dots-blue {
+  position: absolute;
+  z-index: -1;
+  left: -30px;
+  top: -30px;
+}
+
+.articles__drop {
+  position: absolute;
+  z-index: -1;
+  right: -540px;
+  top: -50px;
+}
+
+@media only screen and (max-width: 1165px) {
+  .articles__drop {
+    top: 200px;
+    right: -300px;
+  }
+}
 /*# sourceMappingURL=Articles.css.map */

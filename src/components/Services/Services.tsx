@@ -3,13 +3,14 @@ import React from 'react';
 import './Services.css';
 import { ButtonCustom } from '../shared/ButtonCustom';
 import Card from './Card';
-
 import searchDoctor from '../../assets/search-doctor.svg';
 import onlinePharmacy from '../../assets/online-pharmacy.svg';
 import consultation from '../../assets/consultation.svg';
 import detailsInfo from '../../assets/details-info.svg';
 import emergencyCare from '../../assets/emergency-care.svg';
 import tracking from '../../assets/tracking.svg';
+import dotsBlue from '../../assets/bg-dots-blue.svg';
+import dropLeft from '../../assets/bg-drop-left.svg';
 
 export function Services() {
   return (
@@ -21,7 +22,11 @@ export function Services() {
       <Typography variant="body1" className="services__header-body">
         We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health
       </Typography>
-      <div className="services__cards">
+      <div className="services__cards services__bg-container">
+        {/* background elements */}
+          <img src={dotsBlue} className="services__dots-blue" />
+          <img src={dropLeft} className="services__drop" />
+        {/* /////////////////// */}
         <Card
           img={searchDoctor}
           title="Search doctor"

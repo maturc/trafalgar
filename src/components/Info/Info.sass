@@ -8,7 +8,21 @@
     top: -2px
     left: 8px
 
-.image-and-text__container .image-and-text:nth-child(1) img
+.image-and-text__container .image-and-text:nth-child(1) .target
   margin-left: -76px
-.image-and-text__container .image-and-text:nth-child(2) img
+.image-and-text__container .image-and-text:nth-child(2) .target
   margin-right: -76px
+
+//background element
+.image-and-text__bg-container
+  position: relative
+  width: 0
+  height: 0
+  margin: 0
+.image-and-text__dots-blue
+  position: absolute
+  right: -440px
+  top: 480px
+  z-index: -1
+.image-and-text__container .image-and-text:nth-child(2) .image-and-text__dots-blue
+  display: none

@@ -48,4 +48,15 @@
     margin-right: auto;
   }
 }
+
+.banner__bg-container {
+  position: relative;
+}
+
+.banner__dots-blue {
+  position: absolute;
+  z-index: -1;
+  left: -372px;
+  top: 0px;
+}
 /*# sourceMappingURL=Banner.css.map */

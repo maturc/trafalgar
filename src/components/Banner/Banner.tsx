@@ -3,10 +3,14 @@ import React from 'react';
 import './Banner.css';
 import bannerImg from '../../assets/banner.png'
 import { ButtonCustom } from '../shared/ButtonCustom';
+import dotsBlue from '../../assets/bg-dots-blue.svg';
 
 export function Banner() {
   return (
-    <div className="banner">
+    <div className="banner banner__bg-container">
+      {/* background elements */}
+        <img src={dotsBlue} className="banner__dots-blue" />
+      {/* /////////////////// */}
       <div className="banner__text">
         <Typography variant="h1">
           Virtual healthcare

@@ -2,11 +2,17 @@ import { Container, Typography } from '@material-ui/core';
 import React from 'react';
 import './Footer.css';
 import logo from '../../assets/logo-footer.svg';
+import dotsWhite from '../../assets/bg-dots-white.svg';
+import dotsBlue from '../../assets/bg-dots-blue.svg';
 import FooterNav from './FooterNav';
 
 export function Footer() {
   return (
-    <div className="footer">
+    <div className="footer footer__bg-container">
+      {/* background elements */}
+        <img src={dotsWhite} className="footer__dots-white" />
+        <img src={dotsBlue} className="footer__dots-blue" />
+      {/* /////////////////// */}
       <Container maxWidth="lg" className="footer__container">
         <div className="footer__info">
           <img src={logo} alt="" width="160" height="41" />

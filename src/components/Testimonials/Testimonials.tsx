@@ -5,11 +5,12 @@ import { CarouselItem } from './CarouselItem';
 import './Testimonials.css';
 import controlsLeftIcon from '../../assets/carousel-left.svg';
 import controlsDotIcon from '../../assets/carousel-dot.svg';
-
 import testimonials1 from '../../assets/testimonials-1.jpg';
 import testimonials2 from '../../assets/testimonials-2.jpg';
 import testimonials3 from '../../assets/testimonials-3.jpg';
 import testimonials4 from '../../assets/testimonials-4.jpg';
+import dotsWhite from '../../assets/bg-dots-white.svg';
+import dotsBlue from '../../assets/bg-dots-blue.svg';
 
 export function Testimonials() {
   const [index, setIndex]       = useState<number>(0);
@@ -45,7 +46,11 @@ export function Testimonials() {
   const dotIsActive4 = index===3 ? "testimonials__controls-dot--active" : "";
   return (
     <>
-      <div className="testimonials">
+      <div className="testimonials testimonials__bg-container">
+        {/* background elements */}
+          <img src={dotsWhite} className="testimonials__dots-white" />
+          <img src={dotsBlue} className="testimonials__dots-blue" />
+        {/* /////////////////// */}
         <Typography variant="h2">
           What our customer are saying
         </Typography>

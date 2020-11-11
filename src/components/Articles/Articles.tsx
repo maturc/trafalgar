@@ -6,6 +6,8 @@ import articleImage1 from '../../assets/article-image-1.png';
 import articleImage2 from '../../assets/article-image-2.png';
 import articleImage3 from '../../assets/article-image-3.png';
 import { ButtonCustom } from '../shared/ButtonCustom';
+import dotsBlue from '../../assets/bg-dots-blue.svg';
+import dropRight from '../../assets/bg-drop-right.svg';
 
 export function Articles() {
   return (
@@ -14,7 +16,11 @@ export function Articles() {
         Check out our latest article
       </Typography>
       <hr />
-      <div className="articles__container">
+      <div className="articles__container articles__bg-container">
+        {/* background elements */}
+          <img src={dotsBlue} className="articles__dots-blue" />
+          <img src={dropRight} className="articles__drop" />
+        {/* /////////////////// */}
         <Article
           img={articleImage1}
           alt="Doctor taking a blood sample from a patient"
