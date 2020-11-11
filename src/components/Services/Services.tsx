@@ -24,8 +24,8 @@ export function Services() {
       </Typography>
       <div className="services__cards services__bg-container">
         {/* background elements */}
-          <img src={dotsBlue} className="services__dots-blue" />
-          <img src={dropLeft} className="services__drop" />
+          <img src={dotsBlue} alt="" className="services__dots-blue" />
+          <img src={dropLeft} alt="" className="services__drop" />
         {/* /////////////////// */}
         <Card
           img={searchDoctor}

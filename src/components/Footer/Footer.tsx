@@ -10,8 +10,8 @@ export function Footer() {
   return (
     <div className="footer footer__bg-container">
       {/* background elements */}
-        <img src={dotsWhite} className="footer__dots-white" />
-        <img src={dotsBlue} className="footer__dots-blue" />
+        <img src={dotsWhite} alt="" className="footer__dots-white" />
+        <img src={dotsBlue}  alt="" className="footer__dots-blue" />
       {/* /////////////////// */}
       <Container maxWidth="lg" className="footer__container">
         <div className="footer__info">

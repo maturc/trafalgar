@@ -9,7 +9,7 @@ export function Banner() {
   return (
     <div className="banner banner__bg-container">
       {/* background elements */}
-        <img src={dotsBlue} className="banner__dots-blue" />
+        <img src={dotsBlue} alt="" className="banner__dots-blue" />
       {/* /////////////////// */}
       <div className="banner__text">
         <Typography variant="h1">

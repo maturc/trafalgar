@@ -48,8 +48,8 @@ export function Testimonials() {
     <>
       <div className="testimonials testimonials__bg-container">
         {/* background elements */}
-          <img src={dotsWhite} className="testimonials__dots-white" />
-          <img src={dotsBlue} className="testimonials__dots-blue" />
+          <img src={dotsWhite} alt="" className="testimonials__dots-white" />
+          <img src={dotsBlue}  alt="" className="testimonials__dots-blue" />
         {/* /////////////////// */}
         <Typography variant="h2">
           What our customer are saying

@@ -18,8 +18,8 @@ export function Articles() {
       <hr />
       <div className="articles__container articles__bg-container">
         {/* background elements */}
-          <img src={dotsBlue} className="articles__dots-blue" />
-          <img src={dropRight} className="articles__drop" />
+          <img src={dotsBlue}  alt="" className="articles__dots-blue" />
+          <img src={dropRight} alt="" className="articles__drop" />
         {/* /////////////////// */}
         <Article
           img={articleImage1}
