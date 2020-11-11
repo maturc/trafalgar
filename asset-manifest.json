@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/trafalgar/static/css/main.73b8927d.chunk.css",
-    "main.js": "/trafalgar/static/js/main.81355f04.chunk.js",
-    "main.js.map": "/trafalgar/static/js/main.81355f04.chunk.js.map",
+    "main.css": "/trafalgar/static/css/main.bc2befbd.chunk.css",
+    "main.js": "/trafalgar/static/js/main.a88ac523.chunk.js",
+    "main.js.map": "/trafalgar/static/js/main.a88ac523.chunk.js.map",
     "runtime-main.js": "/trafalgar/static/js/runtime-main.8499473b.js",
     "runtime-main.js.map": "/trafalgar/static/js/runtime-main.8499473b.js.map",
     "static/js/2.2b182aba.chunk.js": "/trafalgar/static/js/2.2b182aba.chunk.js",
@@ -10,12 +10,16 @@
     "static/js/3.1b768f73.chunk.js": "/trafalgar/static/js/3.1b768f73.chunk.js",
     "static/js/3.1b768f73.chunk.js.map": "/trafalgar/static/js/3.1b768f73.chunk.js.map",
     "index.html": "/trafalgar/index.html",
-    "static/css/main.73b8927d.chunk.css.map": "/trafalgar/static/css/main.73b8927d.chunk.css.map",
+    "static/css/main.bc2befbd.chunk.css.map": "/trafalgar/static/css/main.bc2befbd.chunk.css.map",
     "static/js/2.2b182aba.chunk.js.LICENSE.txt": "/trafalgar/static/js/2.2b182aba.chunk.js.LICENSE.txt",
     "static/media/article-image-1.cc430c25.png": "/trafalgar/static/media/article-image-1.cc430c25.png",
     "static/media/article-image-2.47a085f6.png": "/trafalgar/static/media/article-image-2.47a085f6.png",
     "static/media/article-image-3.361de679.png": "/trafalgar/static/media/article-image-3.361de679.png",
     "static/media/banner.69425c8e.png": "/trafalgar/static/media/banner.69425c8e.png",
+    "static/media/bg-dots-blue.0e333342.svg": "/trafalgar/static/media/bg-dots-blue.0e333342.svg",
+    "static/media/bg-dots-white.0649998f.svg": "/trafalgar/static/media/bg-dots-white.0649998f.svg",
+    "static/media/bg-drop-left.65c9a4b6.svg": "/trafalgar/static/media/bg-drop-left.65c9a4b6.svg",
+    "static/media/bg-drop-right.b75dc374.svg": "/trafalgar/static/media/bg-drop-right.b75dc374.svg",
     "static/media/carousel-dot.0adac0de.svg": "/trafalgar/static/media/carousel-dot.0adac0de.svg",
     "static/media/carousel-left.9a98dfdb.svg": "/trafalgar/static/media/carousel-left.9a98dfdb.svg",
     "static/media/consultation.635fdb7d.svg": "/trafalgar/static/media/consultation.635fdb7d.svg",
@@ -36,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.8499473b.js",
     "static/js/2.2b182aba.chunk.js",
-    "static/css/main.73b8927d.chunk.css",
-    "static/js/main.81355f04.chunk.js"
+    "static/css/main.bc2befbd.chunk.css",
+    "static/js/main.a88ac523.chunk.js"
   ]
 }
