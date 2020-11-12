@@ -3,7 +3,7 @@
 ## About
 The goal of this project is building a webside from an existing design, with the focus of being pixel perfect as possible.
 The design that I used can be found [here](https://dribbble.com/shots/12514026--FIGMA-FREEBIE-Landing-page-for-a-healthcare-startup). It's made by [Aryo Pamungkas](https://dribbble.com/musicalryo)
-## [Live preview](https://maturc.github.io/trafalgar/)
+# [Live preview](https://maturc.github.io/trafalgar/)
 
 ### Original design
 ![original design](https://raw.githubusercontent.com/maturc/trafalgar/main/preview/trafalgar-design-preview.png)
